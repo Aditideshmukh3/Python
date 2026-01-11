@@ -1,0 +1,141 @@
+* Variables rules :
+1.	Variables name should be start with alphabets a-z or A-Z.
+2.	Variables name should not start with digit (0-9).
+3.	You cannot use any symbols in variables name except _ (preferrably in middle of two words).
+4.	Variables name should not contain keywords ( there are 30+ keywords available like for, if, else, break, continue, etc.).
+5.	Variables name / python is case sensitive (like a=10, A=10 is different for python).
+
+
+* Constants :
+values that are fixed such as -
+1. mathematical values
+2. pi - 3.14
+3. gravity value
+4. exponential value
+5. log value
+
+
+* Keywords :
+For if else elif break continue define class pass in range
+
+
+* Comments :
+1.	Comments are used as description, when you don’t want results to be shown in output.
+2.	It is donated as #.
+3.	Shortcut key : ctrl+/ (both for comment and uncomment).
+ 
+
+* 0perators :
+1.	Arithmatic operators : +, -, / (normal division), // (double division), % (modular division), * (multiplication), ** (double multiplication), ++ (increment), -- (decrement).
+2.	Comparison / relational operators : >, <, >=, <=, ==, != (true or false)
+3.	Logical operators : and, or, not (true or false)
+4.	Assignment operators : =, +=, -=, /=, *=
+5.	Membership operators : in, not in (true or false)
+6.	Identity operators : is, is not (true or false)
+7.	Bitwise operators (not used  much, works on binary language) : >> (right shift), << (left shift)
+
+
+* Data types - Dynamically typed language :
+1.	Integer (int) : Whole numbers (positive/negative).
+2.	Float : Decimal numbers.
+3.	String (str) : Text or number (inside quotes ' ' or " ").
+4.	Boolean (bool) : Logical values: True or False.
+5.	Complex : Complex numbers with real & imaginary parts.
+6.	List : Ordered, changeable collection. 
+7.	Tuple : Ordered, unchangeable collection.
+8.	Set : Unordered collection of unique items.
+9.	Dictonary (dict) : Key–value pairs.
+
+
+* Data type methods :
+indexing -
+ 1. positive - left to right - 0
+ 2. negative - right to left - -1
+
+
+* Statements :
+1. Conditional statements - (true/false)
+    1) if - if you have one condition & you want output for only true part
+    2) if else - if you have one condition & you want output for both true and false part
+    3) if elif else - if you have multiple conditions
+2. Looping statement -
+    1) for Loop
+    2) while Loop
+    3) switch statement
+
+* Functions :
+1. function with parameter
+2. function without parameter
+3. function with default parameter
+4. function with return statement
+5. *args function
+6. **kwargs function
+7. lambda function
+
+
+* File handling :
+A) Function file -
+   1. read()
+   2. write()
+   3. open()
+   4. close()
+B) Modes - (used with open function)
+   1. read -    'r' -  Opens file for reading (error if file doesn’t exist)
+   2. write -   'w' -  Opens file for writing (creates new or erases old content)
+   3. append -  'a' -  Opens file for adding content at the end (keeps old content)  
+   4. create -  'x' -  Creates a new file (error if file already exists)  
+
+   open('abc.txt', 'r')
+   open('abc.txt', 'w')
+   open('abc.txt', 'a')
+   open('abc.txt', 'x')
+
+
+* modules/ packages/ libraries :
+To use or install them, we use = pip - preffered installer program
+eg. - pip install pandas
+
+
+* Exception handling :
+1. try - contains logic
+2. except - handles error 
+3. finally - optional
+
+
+* Oops (Object Oriented Programming Language) logic :
+oops concept is build on - class & object
+- security
+- reusability
+- Reliability
+
+Four pillars of oops logic :
+1. Inheritance - One class can use properties and methods of another class / inherit something
+    parent class - child class / base class - derived class
+
+    types of Inheritance :
+    1. Single Inheritance
+    2. multiple Inheritance
+    3. Multilevel Inheritance
+    4. Heirarchical Inheritance
+    5. Hybrid Inheritance
+
+2. Polymorphism - Same function name or method but behaves differently for different objects with different meanings
+3. Abstraction - Hiding complex details and showing only the essential features / hides unnecessary data
+    Two types :
+    1. Data Abstraction - original data entity is hidden
+    2. Process Abstraction - hides implementation
+
+4. Encapsulation - Wrapping data and methods into one unit and protecting them from outside access / security to data __
+
+
+* Regex (regular) expression :
+A regular expression is a sequence of characters used to find, match, or replace specific patterns of text in string
+
+
+* Threading :
+meaning - sequence of instructions
+thread - main thread
+
+
+* Syntax :
+
